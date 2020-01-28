@@ -11,7 +11,7 @@ import string
 
 bot = commands.Bot(command_prefix = '!')
 bot.remove_command('help')
-
+token = 'NjU1NDc2NjQxMDQ0MzY1MzMx.Xi8n5w.B59etB7A8tC--9mdIKxfYlStGv4'
 @bot.event
 
 async def on_ready():
@@ -317,4 +317,4 @@ async def serverinfo(ctx, member: discord.Member = None):
 
 
 # Включение
-bot.run( 'NjU1NDc2NjQxMDQ0MzY1MzMx.Xi8n5w.B59etB7A8tC--9mdIKxfYlStGv4' )
+bot.run(str(token) )
