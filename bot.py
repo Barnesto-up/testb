@@ -9,7 +9,7 @@ from discord.ext import commands
 bot = commands.Bot(command_prefix = '!')
 bot.remove_command('help')
 
-tokent ='NjU1NDc2NjQxMDQ0MzY1MzMx.XjG_FA.JlXePDhMnZmX8s5lufBsXWUF_IU'
+tokent ='NjU1NDc2NjQxMDQ0MzY1MzMx.XjHEGg.8TRzEt9cgC953V0WAyDUv_xBCf0'
 
 @bot.event
 async def on_ready():
